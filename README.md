@@ -20,7 +20,7 @@ The full PAW pipeline analysis of this dataset is detailed in [this repository](
 
 ---
 
-### Local benchmarks of KNIME OpenMS-Comet-Percolator Workflow used in [Neely *et al.*, 2020](https://osf.io/preprints/bgwve/)
+### Local benchmarks of KNIME OpenMS-Comet-Percolator Workflow used in [Neely *et al.*, 2021](https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00920) (also [preprint available](https://osf.io/preprints/bgwve/))
 
 #### Local Benchmark 1
 
@@ -68,4 +68,4 @@ TXT conversion|Sea lion RefSeq (full, 1.25Da, low-res)|1,736|0:28|1,646|0:27
 TXT conversion|Sea lion RefSeq (full, 10ppm, high-res)|1,815|0:30|1,942|0:32
 TXT conversion|Sea lion RefSeq (semi, 10ppm, high-res)|2,800|0:46|2,776|0:46
 
-The RAW conversion step and the Comet post processing (TXT conversion) step are single processor/thread. Comet searches use all CPU cores. Note that semi-tryptic Comet searches are much slower than fully-tryptic searches. This might be due to FASTA database digestion indexing. It is not known how Comet deals with the larger search spaces associated with semi-tryptic and non-specific searches. There are many ways to make programs faster or slower on the same computer platform. This should be kept in mind when comparing between computer platforms. 
+The RAW conversion step and the Comet post processing (TXT conversion) step are single processor/thread. Comet searches use all CPU cores. Note that semi-tryptic Comet searches are much slower than fully-tryptic searches. This might be due to FASTA database digestion indexing. It is not known how Comet deals with the larger search spaces associated with semi-tryptic and non-specific searches. There are many ways to make programs faster or slower on the same computer platform. This should be kept in mind when comparing between computer platforms.
